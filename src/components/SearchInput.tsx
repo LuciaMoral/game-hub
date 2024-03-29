@@ -7,6 +7,7 @@ interface Props {
 }
 
 export const SearchInput = ({ onSearch }: Props) => {
+  
   const ref = useRef<HTMLInputElement>(null);
 
   return (
